@@ -72,4 +72,8 @@ function playSound(name) {
 
 function startOver() {
   location.reload();
+  // level = 0;
+  // gamePattern = [];
+  // userClickedPattern = [];
+  // started = false;
 }
