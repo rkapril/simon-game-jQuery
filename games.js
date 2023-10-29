@@ -45,8 +45,8 @@ function checkAnswer(currentLevel) {
 }
 
 function nextSequence() {
-  gamePattern = [];
-  userClickedPattern = [];
+  // gamePattern = [];
+  // userClickedPattern = [];
   level++;
   $("#level-title").text("Level " + level);
   var randomNumber = Math.floor(Math.random() * 4);
@@ -75,5 +75,6 @@ function playSound(name) {
 function startOver() {
   level = 0;
   gamePattern = [];
+  userClickedPattern = [];
   started = false;
 }
